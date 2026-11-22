@@ -3,7 +3,7 @@
 - **Họ tên:** Nguyễn Trường Nam
 - **MSSV:** 2A202604067
 - **Hình thức:** Cá nhân
-- **Mã bộ ảnh:** G09, chọn ngẫu nhiên từ gói G01–G12.
+- **Mã bộ ảnh:** G09 
 - **Task CVAT:** `Day12-G09`, task #23, job #23.
 - **Số ảnh có tag:** 22/22, kiểm trên ZIP xuất từ CVAT.
 - **Nguồn nhãn:** Mô hình xử lý trên máy và tự kiểm bằng `cabin_check`. Các ca chưa rõ được ghi trong phiếu tự kiểm.
