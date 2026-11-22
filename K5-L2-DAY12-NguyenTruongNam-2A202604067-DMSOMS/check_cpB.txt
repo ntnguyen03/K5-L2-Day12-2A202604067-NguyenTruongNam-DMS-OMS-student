@@ -1,0 +1,7 @@
+File: D:\ai20k\K5-L2-Day12-2A202604067-NguyenTruongNam-DMS-OMS-student\part_B.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=1, person=2
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+D01.png: giữ eye_left=unknown vì kết quả hiện tại chưa xác định được trạng thái mí mắt. Cờ che khuất cần xác nhận khi rà trực tiếp.
+Nguồn: bản mô hình ở phạm vi 2 ảnh Checkpoint B, tái tạo từ template CVAT sạch để chạy tự kiểm.

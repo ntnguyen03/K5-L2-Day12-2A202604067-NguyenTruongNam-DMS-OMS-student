@@ -1,0 +1,9 @@
+File: D:\ai20k\K5-L2-Day12-2A202604067-NguyenTruongNam-DMS-OMS-student\K5-L2-DAY12-NguyenTruongNam-2A202604067-DMSOMS\export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=2, face=8, face13=6, hand=5, infant_seat=6, object=18, person=10
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D06.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo từ tự kiểm
+- D01.png: mô hình chưa đủ bằng chứng để xác định mắt trái mở hay nhắm. Giữ eye_left=unknown. Các điểm có vị trí ước lượng nhưng chưa xác nhận che khuất, nên không thêm cờ chỉ để bỏ cảnh báo.
+- D06.png: theo GUIDE 4.6, ảnh xoay 90 độ đọc thứ tự mắt theo y. left_eye_outer có y=595,56 px và right_eye_outer có y=441,88 px. Giữ đúng trái/phải theo người.

@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ảnh IR-sim có ba kênh gần như trùng nhau. Vùng đồ vật giữa được phát hiện ở cùng vị trí trong ảnh RGB và IR-sim.",object.type,"Giữ đề xuất bag ở ghế giữa dựa trên hình dạng và vị trí. Màu không đủ căn cứ trên IR-sim."
+S04_ir,IR_sim,"Median độ sáng của ảnh IR-sim là 41 so với 8 trong ảnh RGB sau quy đổi thang xám 8 bit. Hai mô hình cùng tìm thấy vùng người ở nửa phải ảnh.",person.seat,"Giữ rear_left theo quy ước ghế của xe. Độ sáng giúp thấy đường viền nhưng không đổi vị trí ghế."
+D01,real_IR,"Mặt không được MediaPipe nhận trên toàn ảnh. Khi cắt vùng đầu theo pose thì phát hiện được mặt, nhưng tín hiệu mắt trái chưa rõ.",face.eye_left,"Dùng unknown cho mắt trái. Giữ mặt và điểm mặt ở mức dự đoán cần rà."
+D04,real_IR,"Median độ sáng ảnh là 10/255. Mô hình tìm thấy mặt sau khi tăng tương phản cục bộ, còn lượt nhận diện trên ảnh gốc không tìm thấy.",face,"Dùng kết quả từ ảnh tăng tương phản để đề xuất vị trí. Tọa độ được đổi về ảnh gốc khi ghi annotation."
